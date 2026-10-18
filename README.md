@@ -16,7 +16,7 @@ O CP5 aproveita o domínio de mercado express do CP anterior e acrescenta **aute
 
 ## Links
 
-- **GitHub:** https://github.com/SEU-USUARIO/SEU-REPOSITORIO
+- **GitHub:** [https://github.com/SEU-USUARIO/SEU-REPOSITORIO](https://github.com/Bruno-A-Z/cp05)
 - **Deploy:** https://SEU-APP.onrender.com
 - **Sistema utilizado no deploy:** Render (Web Service com Docker + PostgreSQL do Render)
 - **IDE utilizada:** IntelliJ IDEA
@@ -363,61 +363,71 @@ Exemplo de `POST /item`:
 
 ### 00 — Landing page (`index.html`)
 
-![Landing page](docs/screenshots/01-landing.png)
+<img width="2557" height="1270" alt="image" src="https://github.com/user-attachments/assets/a9b5297d-ffe3-445c-af2f-1b783c65e991" />
+
 
 Página base da aplicação, com acesso a **Entrar** e **Criar conta**.
 
 ### 01 — Cadastro (Sign Up)
 
-![Cadastro](docs/screenshots/02-cadastro.png)
+<img width="2556" height="1268" alt="image" src="https://github.com/user-attachments/assets/4e7dac83-f2bf-476b-9ee0-9acf33195bcb" />
+
 
 Formulário com validação (nome, usuário, e-mail e senha). O usuário é salvo na tabela `TDS_Users_Mercado` com perfil `USER` e senha criptografada.
 
 ### 02 — Login personalizado
 
-![Login](docs/screenshots/03-login.png)
+<img width="2555" height="1270" alt="image" src="https://github.com/user-attachments/assets/a3efe0d0-be88-4b56-9d6d-d8ea8dd6685e" />
+
 
 Tela de login própria, diferente da fornecida pelo Spring Security. Quem não possui conta é direcionado ao cadastro.
 
 ### 03 — Área restrita do USER
 
-![Área do cliente](docs/screenshots/04-cliente.png)
+<img width="2557" height="1267" alt="image" src="https://github.com/user-attachments/assets/4e4b1ef5-cd3e-4b6b-91b2-0153463b7f66" />
+
 
 Após o login com perfil `USER`, o redirecionamento é para `/cliente`.
 
 ### 04 — Painel do ADMIN
 
-![Painel administrativo](docs/screenshots/05-admin.png)
+<img width="2559" height="1272" alt="image" src="https://github.com/user-attachments/assets/3eab229a-56a0-4ad1-b219-a56672ab8558" />
+
 
 Após o login com perfil `ADMIN`, o redirecionamento é para `/admin`.
 
 ### 05 — READ: lista de produtos
 
-![Lista de produtos](docs/screenshots/06-lista.png)
+<img width="2557" height="1269" alt="image" src="https://github.com/user-attachments/assets/11c08836-e68e-4832-95a2-39b9d8284ae4" />
+
 
 Produtos carregados da tabela `TDS_Sec_MVC_TB_Mercado`. O `USER` vê apenas o botão **Ver**; o `ADMIN` também vê **Editar** e **Excluir**.
 
 ### 06 — CREATE: novo produto
 
-![Criar produto](docs/screenshots/07-create.png)
+<img width="2557" height="1270" alt="image" src="https://github.com/user-attachments/assets/71b22a22-2db8-48fb-aec2-a1caa9aafcbf" />
+
 
 ### 07 — UPDATE: editar produto
 
-![Editar produto](docs/screenshots/08-update.png)
+<img width="2557" height="1266" alt="image" src="https://github.com/user-attachments/assets/7a9e9827-b47d-486f-9b7b-c3e499371bc1" />
+
 
 ### 08 — DELETE: excluir produto
 
-![Excluir produto](docs/screenshots/09-delete.png)
+<img width="2539" height="1267" alt="image" src="https://github.com/user-attachments/assets/1cbff32b-d3fc-4c04-a4d0-9d3dd322cc3e" />
+
 
 ### 09 — Acesso negado
 
-![Acesso negado](docs/screenshots/10-acesso-negado.png)
+<img width="2557" height="1263" alt="image" src="https://github.com/user-attachments/assets/6edde8a3-fdfa-424a-85a9-a14a30275c87" />
+
 
 Usuário com perfil `USER` tentando acessar uma rota exclusiva do `ADMIN` (`/web/itens/novo`).
 
 ### 10 — Banco de dados
 
-![Tabelas no PostgreSQL](docs/screenshots/11-banco.png)
+(<img width="875" height="150" alt="image" src="https://github.com/user-attachments/assets/10e8364d-a528-489e-a49d-af27509b1839" />
 
 Tabelas `tds_sec_mvc_tb_mercado` e `tds_users_mercado` no pgAdmin.
 
