@@ -363,74 +363,73 @@ Exemplo de `POST /item`:
 
 ### 00 — Landing page (`index.html`)
 
-<img width="2557" height="1270" alt="image" src="https://github.com/user-attachments/assets/a9b5297d-ffe3-445c-af2f-1b783c65e991" />
+<img width="2555" height="1265" alt="image" src="https://github.com/user-attachments/assets/842b9c80-f724-41ac-890a-dbe80c59bb88" />
 
 
 Página base da aplicação, com acesso a **Entrar** e **Criar conta**.
 
 ### 01 — Cadastro (Sign Up)
 
-<img width="2556" height="1268" alt="image" src="https://github.com/user-attachments/assets/4e7dac83-f2bf-476b-9ee0-9acf33195bcb" />
-
+<img width="2555" height="1267" alt="image" src="https://github.com/user-attachments/assets/73d76f59-02ab-42f5-a622-163e6cdb90a5" />
 
 Formulário com validação (nome, usuário, e-mail e senha). O usuário é salvo na tabela `TDS_Users_Mercado` com perfil `USER` e senha criptografada.
 
 ### 02 — Login personalizado
 
-<img width="2555" height="1270" alt="image" src="https://github.com/user-attachments/assets/a3efe0d0-be88-4b56-9d6d-d8ea8dd6685e" />
+<img width="2559" height="1269" alt="image" src="https://github.com/user-attachments/assets/34b58854-a47c-4f29-b17f-e6e00a5408ae" />
 
 
 Tela de login própria, diferente da fornecida pelo Spring Security. Quem não possui conta é direcionado ao cadastro.
 
 ### 03 — Área restrita do USER
 
-<img width="2557" height="1267" alt="image" src="https://github.com/user-attachments/assets/4e4b1ef5-cd3e-4b6b-91b2-0153463b7f66" />
+<img width="2557" height="1267" alt="image" src="https://github.com/user-attachments/assets/16553e07-abfb-42cc-a471-920c299ec643" />
 
 
 Após o login com perfil `USER`, o redirecionamento é para `/cliente`.
 
 ### 04 — Painel do ADMIN
 
-<img width="2559" height="1272" alt="image" src="https://github.com/user-attachments/assets/3eab229a-56a0-4ad1-b219-a56672ab8558" />
+<img width="2557" height="1268" alt="image" src="https://github.com/user-attachments/assets/0cd9801c-a628-422d-b033-3c372d5c0d00" />
 
 
 Após o login com perfil `ADMIN`, o redirecionamento é para `/admin`.
 
 ### 05 — READ: lista de produtos
 
-<img width="2557" height="1269" alt="image" src="https://github.com/user-attachments/assets/11c08836-e68e-4832-95a2-39b9d8284ae4" />
+<img width="2559" height="1268" alt="image" src="https://github.com/user-attachments/assets/8632069a-15cb-4bd6-9b21-65c22dd04543" />
 
 
 Produtos carregados da tabela `TDS_Sec_MVC_TB_Mercado`. O `USER` vê apenas o botão **Ver**; o `ADMIN` também vê **Editar** e **Excluir**.
 
 ### 06 — CREATE: novo produto
 
-<img width="2557" height="1270" alt="image" src="https://github.com/user-attachments/assets/71b22a22-2db8-48fb-aec2-a1caa9aafcbf" />
+<img width="2557" height="1267" alt="image" src="https://github.com/user-attachments/assets/26c041dc-7605-444f-a49d-2bf076ae345a" />
 
 
 ### 07 — UPDATE: editar produto
 
-<img width="2557" height="1266" alt="image" src="https://github.com/user-attachments/assets/7a9e9827-b47d-486f-9b7b-c3e499371bc1" />
+<img width="2559" height="1267" alt="image" src="https://github.com/user-attachments/assets/b039c2af-33cb-4d6d-971e-a69135f82672" />
 
 
 ### 08 — DELETE: excluir produto
 
-<img width="2539" height="1267" alt="image" src="https://github.com/user-attachments/assets/1cbff32b-d3fc-4c04-a4d0-9d3dd322cc3e" />
+<img width="2557" height="1268" alt="image" src="https://github.com/user-attachments/assets/eb0d59eb-4617-4e1d-9711-2e7ca4c6bc1c" />
 
 
 ### 09 — Acesso negado
 
-<img width="2557" height="1263" alt="image" src="https://github.com/user-attachments/assets/6edde8a3-fdfa-424a-85a9-a14a30275c87" />
+<img width="2557" height="1267" alt="image" src="https://github.com/user-attachments/assets/28f8d9b7-7cf7-47e3-ade0-794d2ab6ec4a" />
 
 
 Usuário com perfil `USER` tentando acessar uma rota exclusiva do `ADMIN` (`/web/itens/novo`).
 
 ### 10 — Banco de dados
 
-(<img width="875" height="150" alt="image" src="https://github.com/user-attachments/assets/10e8364d-a528-489e-a49d-af27509b1839" />
+<img width="880" height="152" alt="image" src="https://github.com/user-attachments/assets/31c3871c-5603-416a-8c28-2345524e8777" />
 
 Tabelas `tds_sec_mvc_tb_mercado` e `tds_users_mercado` no pgAdmin.
 
 ## Deploy
 
-**Link de produção:** https://SEU-APP.onrender.com
+**Link de produção:** [https://amazin.onrender.com](https://cp05.onrender.com)
