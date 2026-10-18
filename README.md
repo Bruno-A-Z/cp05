@@ -16,8 +16,8 @@ O CP5 aproveita o domínio de mercado express do CP anterior e acrescenta **aute
 
 ## Links
 
-- **GitHub:** [https://github.com/SEU-USUARIO/SEU-REPOSITORIO](https://github.com/Bruno-A-Z/cp05)
-- **Deploy:** https://SEU-APP.onrender.com
+- **GitHub:** https://github.com/Bruno-A-Z/cp05
+- **Deploy:** [https://amazin.onrender.com](https://cp05.onrender.com)
 - **Sistema utilizado no deploy:** Render (Web Service com Docker + PostgreSQL do Render)
 - **IDE utilizada:** IntelliJ IDEA
 
